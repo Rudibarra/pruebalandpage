@@ -36,7 +36,7 @@ nav{
 }
 
 nav img{
-	padding-left:1em;
+
 	padding-top:0.5em;
 }
 
@@ -147,11 +147,12 @@ input{
 	padding-top:1em;
 }
 
-ul li input[type="submit"]{
-	margin-left:25%;
-	
+div{
+	margin:0 auto;
+	background:red;
+	text-align:center;
+	width:100%;
 }
-
 
 input[type="submit"]{
 	background-color:#0080D1;
@@ -160,7 +161,8 @@ input[type="submit"]{
 	margin:0 auto;
 	padding:0 auto;
 	text-align:center;
-}
+	height:2em;
+	}
 
 input[type="submit"]:hover{
 	color:white;
@@ -168,6 +170,7 @@ input[type="submit"]:hover{
 	margin:0 auto;
 	padding:0 auto;
 	text-align:center;
+	height:2em;
    
 } 
 
