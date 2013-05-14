@@ -13,51 +13,61 @@ article{
 	}
 
 body{
-	background: url(../images/header.png)repeat-x, url(../images/back.png);
+	background:url(../images/back.png);
 	color:#000;
 	font-size:16px;
 	font-family:Arial;
-	
 }
 
 header{
-	margin:0 auto;
-	max-width:1024px;
+	Background:url(../images/header.png)repeat-x;
 	height:8em;
+	left: 0;
+	margin:0 auto;
+	position: fixed;
+	top: 0;
+	width:100%;
 }
 
-header img{
-	padding:1em;
+nav{
+	margin:0 auto;
+	width:1024px;
+}
+
+nav img{
+	padding-left:1em;
+	padding-top:0.5em;
 }
 
 section{
 	margin:0 auto;
+	width:1024px;
 	overflow:hidden;
+	padding-top:7em;
 	text-align:left;
-	max-width:1024px;
-	
 	vertical-align:middle;
 }
 
 .fila1{
-	text-align:center;
-	width:40%;
+	
 	box-sizing:border-box;
+	text-align:center;
+	width:40%;	
+	padding:1em;
 }
 
 
 .fila1 img{
-	padding-top:2em;
+	
 	width:100%;
-
-
 }
 
 .fila2{
-	padding:0 1em 2em 1em;
 	box-sizing:border-box;
-	width:60%;
-	min-height:26em;
+	max-height:34em;
+	padding-left:1em;
+	padding-right:2em;
+	width:60%;	
 }
 
 .fila2 h1{
@@ -73,43 +83,55 @@ section{
 #abajo{
 	margin:0 auto;
 	overflow:hidden;
-	text-align:left;
 	max-width:1024px;
-	
 	vertical-align:middle;
+	padding-top:1em;
+	padding-bottom:2em;
+
 }
 
-
 .uno{
-	width:50%;
-	height:350px;
-	padding-left:5%;
-	padding-right:5%;
-	padding-top:1em;
+	width:40%;
 	box-sizing:border-box;
 	
 }
 
 .uno h2{
-	color:rgba(0,113,197,1)
+	color:rgba(0,113,197,1);
+	padding-bottom:1em;
 }
 
-.uno ul{
 
-	padding-top:1em;	
+.dos{
+	width:40%;
+	margin-right:5%;
+
+	padding-right:1em;
+	box-sizing:border-box;
+}
+
+.dos h2{
+	color:rgba(0,113,197,1);
+}
+
+.dos ul{
+
+	padding-top:0;	
 	list-style:none;
 }
 
-.uno ul li{
+.dos ul li{
 	display:block;
 	padding-right:1em;
 	
 }
 
-.uno input{
+.dos input{
 	height:2em;
 
 }
+
+
 
 
 input{
@@ -119,15 +141,35 @@ input{
 	
 }
 
-.dos{
-	width:50%;
-	height:350px;
-	padding-left:1em;
-	padding-right:5%;
-	padding-top:1em;
-	box-sizing:border-box;
-	
+ div{
+	 margin:0 auto;
+	 text-align:center;
+	 width:100%;
+ }
+
+input[type="submit"]{
+	background-color:#0080D1;
+	border:1px solid #0071C5;
+	color:white;
+	margin:0 auto;
+	padding:0 auto;
+	text-align:center;
+	height:2em;
 }
+
+input[type="submit"]:hover{
+	color:white;
+   	background-color:#0071C4;
+	margin:0 auto;
+	padding:0 auto;
+	text-align:center;
+	height:2em;
+   
+} 
+
+
+
+
 
 
 @media screen and (max-width:768px){
@@ -149,11 +191,29 @@ input{
 .fila2{
 	width:100%;
 	padding-top:1em;
+	
+	
+
+}
+
+.dos{
+	width:100%;
+}
+
+.uno{
+	width:100%;
+
+}
+
 }
 
 
+
+
+@media screen and (max-width:320px){
+	
+	input{ width:284px;
+	
 }
-
-
-
-
+	
+}
