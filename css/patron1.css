@@ -88,15 +88,16 @@ section{
 	max-width:1024px;
 	vertical-align:middle;
 	padding-top:1em;
+	padding-bottom:2em;
 }
 
 
 .uno{
-	width:50%;
-	padding:0 0 2em 4em;
+	width:40%;
+	padding:0 2em 2em 2em;
 	box-sizing:border-box;
 	background:gray;
-	
+	box-sizing:border-box;
 	
 }
 
@@ -128,16 +129,15 @@ section{
 input{
 	border: solid #000 2px;
 	border-radius:4px;
-	width:300px;
+	width:16em;
 	
 }
 
 .dos{
-	width:50%;
+	width:60%;
 	padding-left:1em;
 	padding-right:1em;
 	box-sizing:border-box;
-	height:300px;
 	
 }
 
@@ -146,12 +146,6 @@ input{
 	padding-top:1em;
 }
 
-div{
-	margin:0 auto;
-	background:red;
-	text-align:center;
-	width:100%;
-}
 
 input[type="submit"]{
 	background-color:#0080D1;
@@ -192,26 +186,50 @@ input[type="submit"]:hover{
 }
 
 .uno{
-	width:100%;
+	padding-left:1em;
+	padding-right:1em;
+	box-sizing:border-box;
+	width:45%;
 }
 
 .dos{
-	width:100%;
-
+	width:55%;
 }
 
 input{
 	border: solid #000 2px;
 	border-radius:4px;
-	width:300px;
+	width:220px;
 }
 
+
+
 }
 
-
-@media screen and (max-width:320px){
+@media screen and (max-width:600px){
 	input{ width:284px;
 	
 }
+
+.uno{
+	width:100%;
+	padding-left:1em;
+}
+
+.dos{
+	width:100%;
+}
+
+input{
+	border: solid #000 2px;
+	border-radius:4px;
+	width:284px;
+}
+
+	
+}
+
+@media screen and (max-width:480px){
+
 	
 }
