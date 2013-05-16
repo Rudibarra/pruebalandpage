@@ -7,6 +7,11 @@ azul = #1C4583
 *{margin:0;
 padding:0;}
 
+html{
+	position:relative;
+	min-height:100%;
+}
+
 article{
 	float:left;
 	width:50%;
@@ -14,10 +19,12 @@ article{
 
 body{
 	background:url(../images/back.png);
-	color:#000;
+	color:#666;
 	font-size:16px;
 	font-family:Arial;
-}
+	height:100%;
+	margin:0 0 6em;
+	}
 
 header{
 	Background:url(../images/header.png)repeat-x;
@@ -88,7 +95,7 @@ section{
 	max-width:1024px;
 	vertical-align:middle;
 	padding-top:1em;
-	padding-bottom:2em;
+	padding-bottom:0em;
 }
 
 
@@ -119,6 +126,7 @@ section{
 
 .uno input{
 	height:2em;
+	border:solid #666 2px;
 
 }
 
@@ -126,7 +134,7 @@ section{
 
 
 input{
-	border: solid #000 2px;
+	border: solid #666 2px;
 	border-radius:4px;
 	width:17em;
 	
@@ -137,6 +145,7 @@ input{
 	padding-left:1em;
 	padding-right:1em;
 	box-sizing:border-box;
+	padding-bottom:2em;
 	
 }
 
@@ -150,7 +159,7 @@ input[type="submit"]{
 	background-color:#0080D1;
 	border:1px solid #0071C5;
 	color:white;
-	margin:0 auto;
+	margin:0 auto;º
 	padding:0 auto;
 	text-align:center;
 	height:2em;
@@ -167,11 +176,14 @@ input[type="submit"]:hover{
 } 
 
 footer{
-	
+	position:absolute;
+	left:0;
+	bottom:0;
 	width:100%;
 	height:6em;
 	background:url(../images/nubes.png) repeat-x;
 	text-align:center;
+	
 
 	
 }
