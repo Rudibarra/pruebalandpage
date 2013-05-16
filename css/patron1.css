@@ -107,6 +107,12 @@ section{
 	
 }
 
+.uno p{
+	color:#666;
+	font-size:.9em;
+	
+}
+
 .uno h2{
 	color:rgba(0,113,197,1);
 	padding-top:1em;
